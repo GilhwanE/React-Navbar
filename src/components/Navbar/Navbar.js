@@ -1,16 +1,24 @@
-import React , {Compoents} from'react';
-import { Menuitems } from "./MenuItems";
+import React , {Component} from'react';
+import { MenuItems } from "./MenuItems";
+import "./Navbar.css";
 
-class Navbar extends React.Component {
+class Navbar extends Component {
+    state = {clicked : false} 
+    
+    handleClick = () => {
+        this.setState({clicked: !this.state.clicked})
+    }
     render()
     {
         return(
             <nav className="NabarItems">
                 <h1 className="Navbar-logo">React<i className="fab fa-react"></i></h1>
-                <div className="menu-icon">
+                <div className="menu-icon" onClick={this.handleClick}>
+                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                
                 </div>
                 <ul>
-                    {Menuitems.map((item, index) => 
+                    {MenuItems.map((item, index) => 
                     {
                         return (
                             <li key={index}> 
