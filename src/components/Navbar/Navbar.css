@@ -19,7 +19,7 @@
 
 .nav-menu{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     width: 70%;
     justify-content: end;
@@ -55,3 +55,6 @@
 }
 
 /* Menu */
+.menu-icon {
+    display: none;
+}
