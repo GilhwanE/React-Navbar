@@ -10,7 +10,7 @@ const SIZES = [
     'btn--medium',
     'btn--large'
 ]
-
+//Button에 데이터다입 지정 및 style , size 적용 함수
 export const Button = ({
     children,
     type,
@@ -24,8 +24,8 @@ export const Button = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
     return (
-        <button className={`btn ${checkButtonStyle} ${checkButtonSize}`} onclick={onclick} type={type}>
-            {children}
+        <button className={`btn ${checkButtonStyle} ${checkButtonSize}`} onclick={onclick} type={type} > 
+        {children}
         </button>
     )
 }
