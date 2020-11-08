@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/GilhwanE/react-navbar/static/css/main.22d071c2.chunk.css",
+    "main.js": "/GilhwanE/react-navbar/static/js/main.0c691ccf.chunk.js",
+    "main.js.map": "/GilhwanE/react-navbar/static/js/main.0c691ccf.chunk.js.map",
+    "runtime-main.js": "/GilhwanE/react-navbar/static/js/runtime-main.ab233f38.js",
+    "runtime-main.js.map": "/GilhwanE/react-navbar/static/js/runtime-main.ab233f38.js.map",
+    "static/js/2.910f30b0.chunk.js": "/GilhwanE/react-navbar/static/js/2.910f30b0.chunk.js",
+    "static/js/2.910f30b0.chunk.js.map": "/GilhwanE/react-navbar/static/js/2.910f30b0.chunk.js.map",
+    "index.html": "/GilhwanE/react-navbar/index.html",
+    "static/css/main.22d071c2.chunk.css.map": "/GilhwanE/react-navbar/static/css/main.22d071c2.chunk.css.map",
+    "static/js/2.910f30b0.chunk.js.LICENSE.txt": "/GilhwanE/react-navbar/static/js/2.910f30b0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab233f38.js",
+    "static/js/2.910f30b0.chunk.js",
+    "static/css/main.22d071c2.chunk.css",
+    "static/js/main.0c691ccf.chunk.js"
+  ]
+}
